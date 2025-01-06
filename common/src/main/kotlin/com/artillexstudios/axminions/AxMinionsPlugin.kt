@@ -92,6 +92,7 @@ class AxMinionsPlugin : AxPlugin() {
             it.register(SellerMinionType())
             it.register(FisherMinionType())
             it.register(SlayerMinionType())
+            it.register(FarmerMinionType2())
         }
 
         val handler = BukkitCommandHandler.create(this)
